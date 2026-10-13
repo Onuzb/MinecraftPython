@@ -1,4 +1,4 @@
-//Bruno Branco dos Santos
+#Bruno Branco dos Santos
 from ursina import *
 from ursina.prefabs.first_person_controller \
     import FirstPersonController
@@ -6,6 +6,7 @@ from ursina.prefabs.first_person_controller \
 app = Ursina()
 Sky()
 
+#Cria o mundo 16x16
 for x in range(16):
     for z in range(16):
         Entity(model='cube', color=color.lime,
